@@ -7,7 +7,7 @@ We will then map these read to a reference genome using the tool minimap2 and pa
 ```
 minimap2 \
     -ax sr \
-    reference.fasta \
+    sequence.fasta \
     sample_R1.fastq.gz sample_R2.fastq.gz \
-| samtools view -b -o sample.bam
+| samtools view -b -o sample_1.bam
 ```
