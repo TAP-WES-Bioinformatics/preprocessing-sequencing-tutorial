@@ -1,5 +1,6 @@
 ## Step 4 - Shotgun Metagenomics : Adaptor and Quality Trimming
 
+Unlike amplicon sequencing, shotgun metagenomics does not use targeted primers, so there is no primer trimming step. Instead, we trim off sequencing adaptors and low quality bases, and discard reads that are too short to be reliably mapped. The ```fastp``` command does adaptor detection and quality trimming for paired-end reads in a single step.
 
 ```
 fastp \

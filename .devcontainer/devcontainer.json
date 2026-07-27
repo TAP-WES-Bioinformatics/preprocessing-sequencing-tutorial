@@ -1,0 +1,5 @@
+{
+  "name": "Clinical & Wastewater Genomics Workshop",
+  "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
+  "postCreateCommand": "conda env create -f environment.yaml && echo 'conda activate preprocessing-sequencing-tutorial' >> ~/.bashrc"
+}
