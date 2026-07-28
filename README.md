@@ -22,6 +22,8 @@ To launch a Codespace:
 
 The container will build and open in your browser. This takes a few minutes the first time.
 
+Once the container opens, it will take another few minutes for the ```postCommand``` to run, which creates the conda enviornment and installs our dependencies. You can check if this is finished by typing ```conda env listt``` and seeing if you see ```preprocessing-sequencing-tutorial``` in the enviornment lists.
+
 # Running Locally
 If you prefer to run the tutorial locally, create a conda environment using the provided ```environment.yaml```:
 
