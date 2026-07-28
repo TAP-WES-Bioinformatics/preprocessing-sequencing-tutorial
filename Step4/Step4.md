@@ -4,8 +4,8 @@ Unlike amplicon sequencing, shotgun metagenomics does not use targeted primers, 
 
 ```
 fastp \
-  -i sample_R1.fastq.gz \
-  -I sample_R2.fastq.gz \
+  -i sample_R1.fastq \
+  -I sample_R2.fastq \
   -o sample_trimmed_R1.fastq.gz \
   -O sample_trimmed_R2.fastq.gz \
   --detect_adapter_for_pe \
